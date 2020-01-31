@@ -33,10 +33,9 @@ function yeller (aStrYeller) {
 
 //for this stretch goal I've used information from : https://stackoverflow.com/questions/33076177/getting-name-initials-using-js
 function initials (fullName) {
-  const separateString = fullName.split(' ');
-  return separateString.substring(0).charAt(0).toUpperCase + '.' + separateString.substring(1).charAt(0).toUpperCase + '.';
-  
+  return fullName[0] + '.' + fullName[fullName.indexOf(' ') + 1] + '.';
 }
+
 
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
