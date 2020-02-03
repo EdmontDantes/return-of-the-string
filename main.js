@@ -23,6 +23,7 @@ function oneCharacter (aStrArbitraryCharOne, x) {
   return aStrArbitraryCharOne.charAt(x);
 }
 
+
 function twoCharacters (aStrArbitraryCharTwo, x, y) {
   return aStrArbitraryCharTwo.charAt(x) + aStrArbitraryCharTwo.charAt(y);
 }
